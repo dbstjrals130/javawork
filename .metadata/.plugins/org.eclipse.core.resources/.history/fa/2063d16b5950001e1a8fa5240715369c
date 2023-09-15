@@ -1,0 +1,19 @@
+package classes.student;
+
+public class sstest {
+
+	public static void main(String[] args) {
+		ss student1 = new ss();
+		student1.name = "홍길동";
+		student1.studentId = 101;
+		student1.grade = 1;
+		student1.showStudentInfo();
+		
+		System.out.println(student1.name);
+		System.out.println(student1.studentId);
+		System.out.println(student1.grade);
+		
+
+	}
+
+}

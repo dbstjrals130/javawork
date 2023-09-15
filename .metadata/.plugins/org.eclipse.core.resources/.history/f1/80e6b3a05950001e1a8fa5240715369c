@@ -1,0 +1,22 @@
+package classes.student;
+
+public class sstest {
+
+	public static void main(String[] args) {
+		ss student1 = new ss();
+		student1.name = "홍길동";
+		student1.studentId = 101;
+		student1.grade = 1;
+		student1.showStudentInfo();
+		
+		System.out.println("==========================");
+		
+		ss student2 = new ss();
+		student2.name = "강아지";
+		student2.studentId = 102;
+		student2.grade = 2;
+		student2.showStudentInfo();
+
+	}
+
+}

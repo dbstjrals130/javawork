@@ -1,0 +1,21 @@
+package classes.constructor;
+
+public class pst {
+
+	public static void main(String[] args) {
+		ps p1 = new ps();
+		p1.name = "강아지";
+		p1.height = 155.3f;
+		p1.weight = 51.2f;
+		
+		p1.ShowPersonInfo();
+
+		System.out.println("======================");
+		
+		ps p2 = new ps("시바견", 183.2F, 76.7F);
+		
+		p2.ShowPersonInfo();
+		
+	}
+
+}

@@ -1,0 +1,31 @@
+package kr.or.iei.run;
+
+import kr.or.iei.model.User1;
+
+public class UserTest22 {
+
+	public static void main(String[] args) {
+		/*User1 user11 = new User1("sky789", "12345", "김기용");
+		
+		System.out.println("아이디 : " + user11.getId());
+		System.out.println("비밀번호 : " + user11.getPwd());
+		System.out.println("이름 : " + user11.getName());*/
+		
+		User1[] user11 = new User1[3];
+		
+		User1 user1 = new User1("sky789", "12345", "김기용");
+		User1 user2 = new User1("sky567", "23454", "우영우");
+		User1 user3 = new User1("sky123", "34567", "장그래");
+		
+		user11[0] = user1;
+		user11[1] = user2;
+		user11[2] = user3;
+
+		for(int i=0; i<user11.length; i++) {
+			System.out.println(user11[i].getId());
+		}
+		
+		
+	}
+
+}

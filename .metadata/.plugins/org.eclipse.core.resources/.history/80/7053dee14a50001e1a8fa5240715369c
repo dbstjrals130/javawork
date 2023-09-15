@@ -1,0 +1,10 @@
+package classes.constructor;
+
+public class CCtest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

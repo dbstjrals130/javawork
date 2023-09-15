@@ -1,0 +1,19 @@
+package kr.or.iei.run;
+
+import kr.or.iei.model.User1;
+
+public class Usertest10 {
+
+	public static void main(String[] args) {
+		User1 user10 = new User1();
+		
+		user10.setId("abcde");
+		user10.setPwd("12345");
+		user10.setName("강아지");
+		
+		System.out.println("아이디 : " + user10.getId());
+		System.out.println("비밀번호 : " + user10.getPwd());
+		System.out.println("이름 : " + user10.getName());
+	}
+
+}
