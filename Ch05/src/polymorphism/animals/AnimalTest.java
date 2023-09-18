@@ -51,7 +51,7 @@ public class AnimalTest {
 		//AnimalTest 객체 생성
 		AnimalTest aTest = new AnimalTest();
 		
-		//Animal 타입으로 객체 생성
+		//Animal 타입으로 객체 생성(다형성)
 		Animal human = new Human();		//Animal animal = new Human
 		Animal eagle = new Eagle();
 		Animal tiger = new Tiger();

@@ -7,8 +7,8 @@ public class Array2dTest1 {
 		int[][] arr = new int[2][3];
 		
 		System.out.println(arr.length); 	 // 행의 크기
-		System.out.println(arr[0].length); 	 // 1열의 크기
-		System.out.println(arr[1].length); 	 // 2열의 크기
+		System.out.println(arr[0].length); 	 // 1행의 1열의 크기
+		System.out.println(arr[1].length); 	 // 1행의 2열의 크기
 		
 		//배열에 값을 저장
 		arr[0][0] = 1;
@@ -21,7 +21,8 @@ public class Array2dTest1 {
 		//선언과 함께 초기화
 		int[][] arr2 = {
 				{1, 2, 3},
-				{4, 5, 6}
+				{4, 5, 6},
+				{7, 8}
 		};
 		
 		

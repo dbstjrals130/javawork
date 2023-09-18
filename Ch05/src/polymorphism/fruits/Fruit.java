@@ -2,7 +2,7 @@ package polymorphism.fruits;
 
 public class Fruit {
 	//필드
-	protected String name;		// 과일 이름
+	protected String name;			// 과일 이름
 	protected String weight;		// 무게(중량)
 	protected int price;			// 가격
 	
