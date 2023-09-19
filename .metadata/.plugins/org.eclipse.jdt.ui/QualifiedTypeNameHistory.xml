@@ -8,10 +8,11 @@
     <fullyQualifiedTypeName name="inheritance.airplane.SuperSonicAirPlane"/>
     <fullyQualifiedTypeName name="protectedex.pack1.A"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="kr.or.iei.model.vo.User"/>
     <fullyQualifiedTypeName name="kr.or.iei.func.Exam"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
