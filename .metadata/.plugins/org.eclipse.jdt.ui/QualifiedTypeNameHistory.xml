@@ -10,9 +10,20 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="kr.or.iei.model.vo.User"/>
     <fullyQualifiedTypeName name="kr.or.iei.func.Exam"/>
-    <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="interfaceex.remocon.RemoteControl"/>
+    <fullyQualifiedTypeName name="interfaceex.inheritance.MyClass"/>
+    <fullyQualifiedTypeName name="interfaceex.inheritance.X"/>
+    <fullyQualifiedTypeName name="interfaceex.inheritance.Y"/>
+    <fullyQualifiedTypeName name="interfaceex.inheritance.MyInterface"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat.Field"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="nestedclass.A.B"/>
+    <fullyQualifiedTypeName name="nestedclass.A.C"/>
+    <fullyQualifiedTypeName name="nestedclass.interfaces.Button.OnClickListener"/>
 </qualifiedTypeNameHistroy>

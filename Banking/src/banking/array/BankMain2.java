@@ -12,6 +12,7 @@ public class BankMain2 {
 		boolean sw = true;
 		
 		while(sw) {
+			try {
 			System.out.println("===========================================");
 			System.out.println("1.계좌 생성 | 2.계좌 목록 | 3.예금 | 4.출금 | 5.종료");
 			System.out.println("===========================================");
@@ -20,18 +21,22 @@ public class BankMain2 {
 			//메뉴 선택
 			int selectNo = Integer.parseInt(scanner.nextLine());
 			
-			if(selectNo == 1) {
-				createAccount();		//계좌 생성
-			}else if(selectNo == 2) {
-				getAccountList();		//계좌 목록
-			}else if(selectNo == 3) {
-				deposit();			//입금
-			}else if(selectNo == 4) {
-				withdraw();			//출금
-			}else if(selectNo == 5) {
-				sw = false;
-			}else {
-				System.out.println("지원되지 않는 기능입니다.");
+				if(selectNo == 1) {
+					createAccount();		//계좌 생성
+				}else if(selectNo == 2) {
+					getAccountList();		//계좌 목록
+				}else if(selectNo == 3) {
+					deposit();			//입금
+				}else if(selectNo == 4) {
+					withdraw();			//출금
+				}else if(selectNo == 5) {
+					sw = false;
+				}else {
+					System.out.println("지원되지 않는 기능입니다.");
+				}
+			}catch(NumberFormatException e) {
+				//e.printStackTrace();
+				System.out.println("숫자로 메뉴를 선택해 주세요.");
 			}
 			
 		}//while끝			
