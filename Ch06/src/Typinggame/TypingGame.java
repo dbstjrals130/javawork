@@ -21,7 +21,6 @@ public class TypingGame {
 		start = System.currentTimeMillis();		//시작 전 시간
 				
 		while(n < 11) {
-		//System.out.println(words.length);
 		int rand = (int)(Math.random()*words.length);
 		System.out.println("문제" + n);
 		String question = words[rand];

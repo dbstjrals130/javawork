@@ -23,6 +23,7 @@ public class WriteExample1 {
 			
 			writer.write(a);
 			writer.write(b);
+			
 			writer.write(str);
 			writer.write(arr);
 			
