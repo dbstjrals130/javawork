@@ -28,6 +28,7 @@ public class Ecoclient {
 			InputStream is = socket.getInputStream();
 			bytes = new byte[1024];
 			int readBytes = is.read(bytes);
+			//문자열로 복원(디코딩)
 			String receiveMessage = new String(bytes, 0, readBytes, "utf-8");
 			System.out.println("[클라이언트] 데이터 받음 : " + receiveMessage);
 			
