@@ -8,7 +8,7 @@ import java.net.Socket;
 
 public class SocketClient {
 
-	ChatServer charServer;
+	ChatServer chatServer;
 	Socket socket;
 	String clientIp;
 	String chatName;
@@ -17,7 +17,7 @@ public class SocketClient {
 	
 	public SocketClient(ChatServer chatServer, Socket socket) {
 		try {
-			this.charServer = chatServer;
+			this.chatServer = chatServer;
 			this.socket = socket;
 			dis = new DataInputStream(socket.getInputStream());
 			dos = new DataOutputStream(socket.getOutputStream());
