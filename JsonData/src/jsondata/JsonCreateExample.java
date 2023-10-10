@@ -21,16 +21,16 @@ public class JsonCreateExample {
 		
 		//객체 속성 추가
 		JSONObject tel = new JSONObject();
-		tel.put("home", "02-123-4567");
+		tel.put("home", "02-123-5678");
 		tel.put("mobile", "010-1111-2222");
-		member.put("tel", tel);	  //member 객체에 객체 추가
+		member.put("tel", tel);  //member 객체에 객체 추가
 		
 		//배열 속성 추가
 		JSONArray skill = new JSONArray();
-		skill.put("java");
+		skill.put("Java");
 		skill.put("C");
 		skill.put("C++");
-		member.put("skill", skill);   //member 객체에 배열 추가
+		member.put("skill", skill); //member 객체에 배열 추가
 		
 		//문자열로 열기(얻기)
 		String json = member.toString();
@@ -41,15 +41,13 @@ public class JsonCreateExample {
 		
 		//파일에 쓰기
 		try {
-			Writer writer = new FileWriter("C:/File/member.json",
-					Charset.forName("UTF-8"));
-			writer.write(json);	//json 데이터를 문자열로 쓰기
+			Writer writer = new FileWriter("C:/File/member.json", 
+					Charset.forName("utf-8"));
+			writer.write(json);  //json데이터를 문자열로 쓰기
 			writer.flush();
 			writer.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
-
 }

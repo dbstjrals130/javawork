@@ -1,8 +1,8 @@
 package reference.circle;
 
-// Point 자료형 생성
+//Point 자료형 생성
 public class Point {
-	// 점의 좌표 - 필드
+	//점의 좌표-필드
 	int x;
 	int y;
 	
@@ -12,6 +12,6 @@ public class Point {
 	}
 	
 	public void showPointInfo() {
-		System.out.println("점(" + x + ", " + y +")");
+		System.out.println("점(" + x + ", " + y + ")");
 	}
 }

@@ -13,16 +13,13 @@ public class IntegerTest {
 		System.out.println(num1);
 		System.out.println(sum);
 		
-		//valueOf() -> 정수나 문자열을 숫자로 변환
+		//valueOf() -> 정수나 문자열을 숫자로 변환함
 		Integer num3 = Integer.valueOf("123");
-		
 		System.out.println(num3);
 		
-		//parseInt() -> 문자열을 숫자로 변환
-		Integer num4 = Integer.parseInt("456");
-		
+		//parseInt() -> 문자열을 숫자로 변환함
+		int num4 = Integer.parseInt("456");
 		System.out.println(num4);
-
 	}
 
 }

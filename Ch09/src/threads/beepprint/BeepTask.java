@@ -12,13 +12,11 @@ public class BeepTask implements Runnable{
 		for(int i=1; i<=5; i++) {
 			toolkit.beep();
 			try {
-				Thread.sleep(500);
+				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			
 		}
-		
 	}
 
 }

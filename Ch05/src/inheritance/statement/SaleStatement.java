@@ -9,15 +9,14 @@ public class SaleStatement {
 		
 		//Alcohol 클래스 사용
 		Alcohol 소주 = new Alcohol("소주", 4000, 3, 15.1F);
-		Alcohol 맥주 = new Alcohol("맥주", 5000, 5, 4.4F);
+		Alcohol 맥주 = new Alcohol("맥주", 5000, 5, 5.5F);
 		
-		
-		//전표 출력
-		Drink.printTitle();
+		//Drink 전표 출력
+		Drink.printTitle();   //제목행
 		coffee.printData();
 		녹차.printData();
 		
-		System.out.println("===================================");
+		System.out.println("=======================================");
 		
 		//Alcohol 전표 출력
 		Alcohol.printTitle();
@@ -26,10 +25,9 @@ public class SaleStatement {
 		
 		//총계 출력
 		int sumVal = coffee.getTotalPrice() + 녹차.getTotalPrice()
-					+ 소주.getTotalPrice() + 맥주.getTotalPrice();
+		      + 소주.getTotalPrice() + 맥주.getTotalPrice();
 		
-		System.out.println("*** 합계 금액 " + sumVal + "원 ***");
-		
+		System.out.println("\n*********** 합계 금액 : " + sumVal + "원 *************");
 	}
 
 }

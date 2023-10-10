@@ -3,7 +3,7 @@ package collection.stack;
 public class MyStackTest {
 
 	public static void main(String[] args) {
-
+		
 		MyStack stack = new MyStack();
 		
 		//객체 넣기
@@ -16,7 +16,14 @@ public class MyStackTest {
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
-
+		
 	}
 
 }
+
+
+
+
+
+
+

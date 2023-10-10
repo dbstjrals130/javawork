@@ -1,4 +1,4 @@
-package Singleton.car;
+package singleton.car;
 
 public class CarTest {
 
@@ -9,9 +9,8 @@ public class CarTest {
 		Car mySonata = factory.createCar();
 		Car yourMorning = factory.createCar();
 		
-		System.out.println(mySonata.getCarNum());
-		System.out.println(yourMorning.getCarNum());
-
+		System.out.println("신차 번호: " + mySonata.getCarNum());
+		System.out.println("신차 번호: " + yourMorning.getCarNum());
 	}
 
 }

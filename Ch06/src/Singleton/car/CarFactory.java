@@ -1,9 +1,9 @@
-package Singleton.car;
+package singleton.car;
 
 public class CarFactory {
 	private static CarFactory instance;
 	
-	private CarFactory () {}
+	private CarFactory() {}
 	
 	//instance 생성 메서드 정의
 	public static CarFactory getInstance() {

@@ -10,27 +10,27 @@ public class EnumWeek {
 		
 		Calendar cal = Calendar.getInstance();
 		int week = cal.get(Calendar.DAY_OF_WEEK);
-		//System.out.println(week);
+		//System.out.println(week);  
 		
 		switch(week) {
-		case 1 :
+		case 1:
 			today = Week.SUNDAY; break;
-		case 2 :
-			today = Week.MONDAY; break;
-		case 3 :
+		case 2:
+			today = Week.MODAY; break;
+		case 3:
 			today = Week.TUESDAY; break;
-		case 4 :
+		case 4:
 			today = Week.WEDNESDAY; break;
-		case 5 :
+		case 5:
 			today = Week.THURSDAY; break;
-		case 6 :
+		case 6:
 			today = Week.FRIDAY; break;
-		case 7 :
+		case 7:
 			today = Week.SATURDAY; break;
-		default :
+		default:
 			System.out.println("요일이 없습니다."); break;
 		}
-		System.out.println("Today is : " + today);
+		System.out.println("Today is " + today);
 		
 		if(today == Week.SUNDAY) {
 			System.out.println("일요일에는 영화 보러 갑니다.");
@@ -38,5 +38,4 @@ public class EnumWeek {
 			System.out.println("열심히 코딩합니다.");
 		}
 	}
-
 }

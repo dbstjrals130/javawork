@@ -1,14 +1,13 @@
-package Singleton.student;
+package singleton.student;
 
 public class School {
 	private static School instance;
 	
-	private School () {}
+	private School() {}
 	
 	public static School getInstance() {
-		if(instance == null) {
+		if(instance == null)
 			instance = new School();
-		}
 		return instance;
 	}
 	
@@ -16,7 +15,4 @@ public class School {
 		Student student = new Student();
 		return student;
 	}
-	
-	
-
 }

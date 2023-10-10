@@ -7,5 +7,4 @@ public class Grape extends Fruit{
 		this.weight = "700g";
 		this.price = 5000;
 	}
-	
 }

@@ -8,7 +8,7 @@ public class Person {
 		this.name = name;
 		this.age = age;
 	}
-
+	
 	public String getName() {
 		return name;
 	}
@@ -16,5 +16,4 @@ public class Person {
 	public int getAge() {
 		return age;
 	}
-	
 }

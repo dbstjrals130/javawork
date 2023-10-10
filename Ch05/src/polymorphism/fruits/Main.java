@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-
+		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("1. 포도 | 2. 바나나 | 3. 복숭아");
+		System.out.println("1.포도 | 2.바나나 | 3.복숭아");
 		System.out.print("선택>");
 		
 		//문자를 숫자형으로 변환
@@ -26,9 +26,8 @@ public class Main {
 			System.out.println("지원되는 기능이 없습니다.");
 		}
 		fruit.showFruitInfo();
-			
+		
 		scanner.close();
-
 	}
 
 }

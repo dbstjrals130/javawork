@@ -11,19 +11,19 @@ public class MemberArrayListTest {
 		Member mem2 = new Member(1002, "양만춘");
 		Member mem3 = new Member(1003, "을지문덕");
 		Member mem4 = new Member(1002, "양만춘");
-				
+		
 		//회원 추가 메서드 호출
 		memberList.addMember(mem1);
 		memberList.addMember(mem2);
 		memberList.addMember(mem3);
-		memberList.addMember(mem4);	  // 중복 허용됨
+		memberList.addMember(mem4);  //중복 허용됨
 		
 		//회원 삭제
 		memberList.removeMember(1002);
 		memberList.removeMember(1004);
 		
 		//회원의 객체 수
-		System.out.println("총 객체수 : " + memberList.getSize());
+		System.out.println("총 객체수: " + memberList.getSize());
 		
 		//회원 목록 조회
 		memberList.showAllMember();

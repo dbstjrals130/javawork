@@ -2,14 +2,13 @@ package nestedclass;
 
 class A{
 	
-	A() {System.out.println("A 객체 생성");}
+	A(){System.out.println("A 객체 생성");}
 	
 	//내부 인스턴스 멤버 클래스
-	class B {
-		
+	class B{
 		int field1;
 		//static int field2;  //내부 클래스에서 static 변수가 생성 안됨
-		B() {System.out.println("B 객체 생성");}
+		B(){System.out.println("B 객체 생성");}
 		
 		void method1() {}
 	}
@@ -19,7 +18,7 @@ class A{
 		int field1;
 		static int field2;
 		
-		C() {System.out.println("C 객체 생성");}
+		C(){System.out.println("C 객체 생성");}
 		
 		void method1() {}
 		static void method2() {}
@@ -30,7 +29,7 @@ class A{
 		class D{
 			int field1;
 			//static int field2;
-			D() {System.out.println("D 객체 생성");}
+			D(){System.out.println("D 객체 생성");}
 			void method1() {};
 		}
 		//d 객체 생성
@@ -38,8 +37,6 @@ class A{
 		d.field1 = 10;
 		d.method1();
 	}
-	
-	
 }
 
 public class NestedClassTest {
@@ -47,7 +44,7 @@ public class NestedClassTest {
 	public static void main(String[] args) {
 		//a 객체 생성
 		A a = new A();
-
+		
 		//b 객체 생성
 		A.B b = a.new B();
 		b.field1 = 3;
@@ -63,7 +60,6 @@ public class NestedClassTest {
 		
 		//D 클래스의 method() 호출
 		a.method();
-		
 	}
 
 }

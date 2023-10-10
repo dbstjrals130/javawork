@@ -8,7 +8,7 @@ import java.io.OutputStream;
 public class WriteExample2 {
 
 	public static void main(String[] args) {
-
+		
 		try {
 			OutputStream os = new FileOutputStream("C:/File/test2.db");
 			//배열로 데이터 생성
@@ -22,7 +22,6 @@ public class WriteExample2 {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 }

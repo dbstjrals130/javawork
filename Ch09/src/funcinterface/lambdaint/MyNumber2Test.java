@@ -10,12 +10,12 @@ public class MyNumber2Test {
 		/*myNum = (x, y) -> {
 			return (x >= y) ? x : y;
 		};*/
-		//return 생략 가능함
-		myNum = (x, y) -> (x >= y) ? x : y;
+		//return 생략가능함.
+		myNum =(x, y) -> (x >= y) ? x : y;
 		
 		//getMax() 호출
-		System.out.println("더 큰 수는 " + myNum.getMax(11, 5));
-		
+		System.out.println("더 큰 수는 " + myNum.getMax(5, 11));
+
 	}
 
 }

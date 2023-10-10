@@ -7,5 +7,4 @@ public class B {
 		a.field = "yes";
 		a.method();
 	}
-	
 }

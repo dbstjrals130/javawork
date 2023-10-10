@@ -3,7 +3,7 @@ package threads.synchronize;
 public class WaitNotifyTest {
 
 	public static void main(String[] args) {
-
+		
 		WorkObject workObject = new WorkObject();
 		
 		ThreadA threadA = new ThreadA(workObject);
@@ -11,7 +11,6 @@ public class WaitNotifyTest {
 		
 		threadA.start();
 		threadB.start();
-
 	}
 
 }

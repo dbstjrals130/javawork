@@ -15,5 +15,4 @@ public class Car2 {
 			tire.roll();
 		}
 	}
-
 }

@@ -24,15 +24,11 @@ public class StackCoinTest {
 		//int coin1 = coinBox.pop().getMoney();
 		//System.out.println(coin1);
 		
-		//전체 객체 출력(꺼내기) - 밖으로 나오면서 삭제 [10 - 50 - 100 - 500]
-		while(!coinBox.isEmpty()) {  //비어있지 않으면
-			Coin coin = coinBox.pop();  //객체 1개 꺼냄
+		//전체 객체 출력(꺼내기) - 밖으로 나오면서 삭제[10 - 50 - 100 - 500]
+		while(!coinBox.isEmpty()) { //비어있지 않으면
+			Coin coin = coinBox.pop(); //객체 1개 꺼냄
 			System.out.println(coin.getMoney());
 		}
-		
-		
-		
-
 	}
 
 }

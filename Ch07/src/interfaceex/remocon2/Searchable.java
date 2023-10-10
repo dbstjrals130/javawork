@@ -4,5 +4,4 @@ package interfaceex.remocon2;
 public interface Searchable {
 	//추상 메서드 - 검색하다
 	public void search(String url);
-	
 }

@@ -23,9 +23,7 @@ public class MyStack {
 		if(size == 0) {
 			System.out.println("스택이 비었습니다.");
 			return null;
-	}
+		}
 		return arrayList.remove(size - 1);  //배열의 인덱스이므로 1이 작다.
 	}
-	
-	
 }

@@ -5,7 +5,7 @@ import classes.Calculator;
 public class UseCalculator {
 
 	public static void main(String[] args) {
-		// 정수형 Calculaotr 객체 생성
+		// 정수형 Calculator 객체 생성
 		Calculator calc = new Calculator();
 		int num1 = 10, num2 = 2;
 		
@@ -14,13 +14,11 @@ public class UseCalculator {
 		int mulVal = calc.mul(num1, num2);
 		int divVal = calc.div(num1, num2);
 		
-		System.out.println(calc);  // 객체의 메모리 주소
+		System.out.println(calc);  //객체의 메모리 주소
 		
-		System.out.println("두 수의 합 : " + addVal);
-		System.out.println("두 수의 차 : " + subVal);
-		System.out.println("두 수의 곱 : " + mulVal);
-		System.out.println("두 수의 나눗셈 : " + divVal);
-		
+		System.out.println("두 수의 합: " + addVal);
+		System.out.println("두 수의 차: " + subVal);
+		System.out.println("두 수의 곱: " + mulVal);
+		System.out.println("두 수의 나누기: " + divVal);
 	}
-
 }

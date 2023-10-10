@@ -1,17 +1,15 @@
-package Singleton.student;
+package singleton.student;
 
 public class Student {
-	
-	private static int studentNum = 100;
-	private int SchoolNum;
+	private static int serialNum = 100;
+	private int studentNum;
 	
 	public Student() {
-		studentNum++;
-		SchoolNum = studentNum;
+		serialNum++;
+		studentNum = serialNum;
 	}
 	
-	public int getStundentNum() {
-		return SchoolNum;
+	public int getStudentNum() {
+		return studentNum;
 	}
-
 }

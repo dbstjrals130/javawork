@@ -14,7 +14,6 @@ public class RemoteControlTest {
 		
 		//건전지 교환
 		RemoteControl.changeBattery();
-
 	}
 
 }

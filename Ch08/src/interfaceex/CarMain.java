@@ -13,10 +13,9 @@ public class CarMain {
 		
 		myCar.frontLeftTire = kum1;
 		myCar.frontRightTire = kum2;
-		
 		myCar.run();
 		
-		System.out.println("========================");
+		System.out.println("===========================");
 		
 		Car2 myCar2 = new Car2();
 		
@@ -24,7 +23,10 @@ public class CarMain {
 		myCar2.tires[0] = new KumTire();
 		myCar2.tires[1] = new KumTire();
 		myCar2.run();
-
 	}
-
 }
+
+
+
+
+

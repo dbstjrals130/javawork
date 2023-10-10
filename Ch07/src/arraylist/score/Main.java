@@ -11,7 +11,6 @@ public class Main {
 		std1.addSubject("Java", 82);
 		
 		std1.showStudentInfo();
-
 	}
 
 }

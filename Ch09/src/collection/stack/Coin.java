@@ -2,7 +2,7 @@ package collection.stack;
 
 public class Coin {
 	
-	private int money;	// 동전 금액
+	private int money;  //동전 금액
 	
 	public Coin(int money) {
 		this.money = money;
@@ -11,5 +11,4 @@ public class Coin {
 	public int getMoney() {
 		return money;
 	}
-
 }

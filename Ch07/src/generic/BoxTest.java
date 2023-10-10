@@ -9,7 +9,7 @@ public class BoxTest {
 		box1.set("행운을 빌어요!");
 		String msg = box1.get();
 		System.out.println(msg);
-
+		
 		//숫자형 타입으로 객체 생성
 		Box<Integer> box2 = new Box<>();
 		
@@ -19,8 +19,8 @@ public class BoxTest {
 		
 		//Fruit형 타입으로 객체 생성
 		Box<Fruit> box3 = new Box<>();
-
-		box3.set(new Fruit("사과"));		
+		
+		box3.set(new Fruit("사과"));
 		Fruit apple = box3.get();
 		System.out.println(apple);
 	}

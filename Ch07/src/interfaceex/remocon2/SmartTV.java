@@ -4,9 +4,9 @@ import interfaceex.remocon.RemoteControl;
 
 //다중 인터페이스 구현
 public class SmartTV implements RemoteControl, Searchable{
-	
-	private int volume;
 
+	private int volume;
+	
 	@Override
 	public void search(String url) {
 		System.out.println(url + "을 검색합니다.");
@@ -24,7 +24,7 @@ public class SmartTV implements RemoteControl, Searchable{
 
 	@Override
 	public void setVolume(int volume) {
-		//volume : 0 ~ 10 설정
+		//volume: 0 ~ 10 설정
 		if(volume > RemoteControl.MAX_VOLUME) {
 			this.volume = RemoteControl.MAX_VOLUME;
 		}else if(volume < RemoteControl.MIN_VOLUME) {
@@ -32,7 +32,7 @@ public class SmartTV implements RemoteControl, Searchable{
 		}else {
 			this.volume = volume;
 		}
-		System.out.println("현재 TV 볼륨 : " + this.volume);
+		System.out.println("현재 TV 볼륨: " + this.volume);
 	}
 
 }

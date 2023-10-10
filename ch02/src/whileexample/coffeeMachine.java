@@ -2,7 +2,7 @@ package whileexample;
 
 import java.util.Scanner;
 
-public class coffeeMachine {
+public class CoffeeMachine {
 
 	public static void main(String[] args) {
 		// 커피 자동판매기 구현 프로그램
@@ -10,21 +10,21 @@ public class coffeeMachine {
 		// 커피값은 500원 투입하면 커피 나옴
 		// 500원을 초과하면 거스름돈과 커피가 나옴
 		// 500원이 부족하면 커피 안나옴
-		// 커피가 다 떨어지면"판매를 중단합니다" 출력 - 프로그램 종료
+		// 커피가 다 떨어지면 "판매를 중단합니다" 출력 - 프로그램 종료
 		Scanner sc = new Scanner(System.in);
 		int coffee = 5;
 		
 		while(true) {
 			System.out.print("돈을 넣어주세요 : ");
-			int money = sc.nextInt(); // 돈을 입력
+			int money = sc.nextInt();  //돈을 입력
 			
 			if(money == 500) {
 				System.out.println("커피가 나옵니다.");
-				coffee -= 1; // coffee = coffee - 1
+				coffee -= 1; //coffee = coffee - 1
 			}else if(money > 500) {
 				System.out.println((money-500) + "원을 돌려주고 커피가 나옵니다.");
 				coffee -= 1;
-			}else if(money < 500) {
+			}else{
 				System.out.println("커피가 나오지 않습니다.");
 			}
 			System.out.println("남은 커피의 양은 " + coffee + "개 입니다.");
@@ -34,8 +34,6 @@ public class coffeeMachine {
 				break;
 			}
 		}//while 끝
-
 		sc.close();
 	}//main 끝
-
 }

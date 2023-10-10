@@ -5,7 +5,7 @@ public class MyResource implements AutoCloseable{
 	private String text;
 	
 	//생성자
-	public MyResource(String name) {
+	public MyResource(String text) {
 		this.text = text;
 		System.out.println("[MyResource(" + text + ")] 열기");
 	}
@@ -24,11 +24,6 @@ public class MyResource implements AutoCloseable{
 	@Override
 	public void close() throws Exception {
 		System.out.println("[MyResource(" + text + ")] 닫기");
-		
 	}
 	
-	
-	
-	
-
 }

@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Cho6 {
+module ch06 {
 }

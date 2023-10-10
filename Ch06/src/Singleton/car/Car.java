@@ -1,9 +1,9 @@
-package Singleton.car;
+package singleton.car;
 
 public class Car {
 	//필드
-	private static int serialNum = 1000;  //기준 번호 - 클래식 변수
-	private int carNum;	  //차량 번호(인스턴스 변수)
+	private static int serialNum = 1000;  //기준 번호 - 클래스 변수
+	private int carNum;  //차량 번호(인스턴스 변수)
 	
 	public Car() {
 		serialNum++;

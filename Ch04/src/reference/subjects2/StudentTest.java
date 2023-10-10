@@ -11,13 +11,14 @@ public class StudentTest {
 		kim.addSubject("국어", 90);
 		kim.addSubject("수학", 85);
 		kim.addSubject("과학", 78);
+		kim.addSubject("사회", 70);
 		
 		park.addSubject("코딩", 95);
 		park.addSubject("Java", 88);
-		
+	
 		//출력
 		kim.showStudentInfo();
-		System.out.println("====================================");
+		System.out.println("*******************************");
 		park.showStudentInfo();
 	}
 

@@ -1,4 +1,4 @@
-package Objectarray.dogs;
+package objectarray.dogs;
 
 public class Dog {
 	//필드
@@ -11,12 +11,11 @@ public class Dog {
 		this.type = type;
 	}
 	
-	//get() 함수
-	
+	//get()함수
 	public String getName() {
 		return name;
 	}
-		
+	
 	public String getType() {
 		return type;
 	}

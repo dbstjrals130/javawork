@@ -12,8 +12,8 @@ public class ArrayTest {
 
 	public static void main(String[] args) {
 		int[] numbers = {1, 2, 3, 4};
-		// add 함수 호출할 때 매개변수로 배열을 전달함
-		int result = add(numbers);
+		//add() 호출할때 매개변수로 배열을 전달함
+		int result = add(numbers); 
 		
 		System.out.println(result);
 	}

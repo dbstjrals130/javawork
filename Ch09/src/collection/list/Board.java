@@ -1,20 +1,21 @@
 package collection.list;
 
 //VO(Value Object) - 자료형
-public class Board {	//게시판
-	// 필드
-	private String title;		//글 제목
-	private String content;		//글 내용
-	private String writer;		//글쓴이
+public class Board { //게시판
+	//필드
+	private String title;    //글 제목
+	private String content;  //글 내용	
+	private String writer;   //글쓴이
 	
 	//생성자
-	public Board(String title, String content, String writer) {
+	public Board(String title, String content, 
+			String writer) {
 		this.title = title;
 		this.content = content;
 		this.writer = writer;
 	}
 	
-	//get, set
+	//getter, setter
 	public void setTitle(String title) {
 		this.title = title;
 	}

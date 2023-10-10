@@ -1,4 +1,4 @@
-package Transport;
+package transport;
 
 public class Main {
 
@@ -13,8 +13,7 @@ public class Main {
 		
 		//지하철 객체 생성
 		Subway green = new Subway("2호선");
-		
-		
+ 		
 		p1.takeBus(bus100);
 		p2.takeBus(bus100);
 		p1.takeBus(bus740);
@@ -23,13 +22,14 @@ public class Main {
 		p2.takeSubway(green);
 		
 		//정보 출력
-		p1.ShowPersonInfo();
-		p2.ShowPersonInfo();
-		System.out.println("===========================");
+		p1.showPersonInfo();
+		p2.showPersonInfo();
+		System.out.println("=====================================");
 		bus100.showBusInfo();
 		bus740.showBusInfo();
-		System.out.println("===========================");
+		System.out.println("=====================================");
 		green.showSubwayInfo();
+
 	}
 
 }

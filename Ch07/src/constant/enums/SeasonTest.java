@@ -3,10 +3,10 @@ package constant.enums;
 public class SeasonTest {
 
 	public static void main(String[] args) {
+
+		Season season;
+		season = Season.여름;  //초기화
 		
-		Season season;		
-		season = Season.여름;		//초기화
-	
 		switch(season) {
 		case 봄:
 			season = Season.봄;
@@ -20,13 +20,10 @@ public class SeasonTest {
 		case 겨울:
 			season = Season.겨울;
 			break;
-		default :
-			System.out.println("계절이 없습니다.");
+		default:
+			System.out.println("계절이 없습니다");
 			break;
 		}
-
 		System.out.println("현재 계절은 " + season + "입니다.");
-		
 	}
-
 }

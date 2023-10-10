@@ -1,4 +1,4 @@
-package Singleton;
+package singleton;
 
 public class CompanyTest {
 
@@ -10,7 +10,7 @@ public class CompanyTest {
 		System.out.println(company1);
 		System.out.println(company2);
 		
-		System.out.println(company1 == company2);	//true
+		System.out.println(company1 == company2); //true
 
 	}
 

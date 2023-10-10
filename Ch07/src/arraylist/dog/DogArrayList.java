@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class DogArrayList {
 
 	public static void main(String[] args) {
-
 		//Dog 인스턴스를 저장할 리스트 생성
 		ArrayList<Dog> dogList = new ArrayList<>();
 		
@@ -27,7 +26,7 @@ public class DogArrayList {
 			Dog dog = dogList.get(i);
 			System.out.println(dog);
 		}
-
+	
 	}
 
 }

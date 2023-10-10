@@ -1,14 +1,14 @@
 package arraycopy;
 
 public class Book {
-	String bookName;
-	String author;
+	private String bookName;
+	private String author;
 	
 	public Book() {}
 	
 	public Book(String bookName, String author) {
 		this.bookName = bookName;
-		this.author = author;	
+		this.author = author;
 	}
 	
 	public String getBookName() {
@@ -18,7 +18,7 @@ public class Book {
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-		
+	
 	public String getAuthor() {
 		return author;
 	}
@@ -27,11 +27,9 @@ public class Book {
 		this.author = author;
 	}
 	
-	
 	//객체의 문자열 정보 재정의
 	@Override
 	public String toString() {
 		return bookName + ", " + author;
 	}
-	
 }

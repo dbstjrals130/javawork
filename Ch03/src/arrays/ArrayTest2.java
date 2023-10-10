@@ -12,15 +12,14 @@ public class ArrayTest2 {
 		cars[0] = "Sonata";
 		cars[1] = "Morning";
 		cars[2] = "K7";
-		cars[2] = "K7";
-
+		cars[3] = "K7";
+		
 		//특정한 위치(1번 인덱스) 조회
-		System.out.println(cars[1]); // Morning
+		System.out.println(cars[1]);  //Morning
 		
 		//전체 출력
 		for(int i = 0; i < cars.length; i++) {
 			System.out.println(cars[i]);
 		}
 	}
-
 }

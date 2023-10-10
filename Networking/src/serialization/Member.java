@@ -21,6 +21,5 @@ public class Member implements Serializable{
 	public String toString() {
 		return id + ", " + name;
 	}
-	
 
 }

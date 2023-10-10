@@ -11,27 +11,22 @@ public class Student {
 
 	@Override
 	public String toString() {
-		return name + ", " + age;
+		return name + ":" + age;
 	}
 
-	/*@Override
+	@Override
 	public int hashCode() {
 		return name.hashCode();
-	}*/
+	}
 
-	/*@Override
+	@Override
 	public boolean equals(Object obj) {
 		if(obj instanceof Student) {
 			Student student = (Student)obj;
 			if(name.equals(student.name))
-				return 
-						true;
+				return true;
 		}
 		return false;
-	}*/
-	
-	
-	
-	
+	}
 
 }

@@ -6,5 +6,4 @@ public interface Scheduler {
 	
 	//상담원에게 전화 배분하기
 	public void sendCallToAgent();
-
 }

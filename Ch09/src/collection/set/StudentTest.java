@@ -6,7 +6,7 @@ import java.util.Set;
 public class StudentTest {
 
 	public static void main(String[] args) {
-		//hashSet 자료 구조의 인스턴스 생성
+		//hashSet 자료구조의 인스턴스 생성
 		Set<Student> set = new HashSet<>();
 		
 		//학생 인스턴스 생성
@@ -23,7 +23,7 @@ public class StudentTest {
 		
 		//자료 출력 - 객체를 출력하면 리스트 형태로 출력
 		System.out.println(set);
-		
+
 	}
 
 }

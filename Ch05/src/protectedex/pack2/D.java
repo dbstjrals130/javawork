@@ -11,5 +11,5 @@ public class D extends A{
 		this.field = "yes";
 		this.method();
 	}
+	
 }
-

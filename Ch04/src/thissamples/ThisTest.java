@@ -7,9 +7,8 @@ public class ThisTest {
 		BirthDay bDay = new BirthDay();
 		bDay.setYear(2023);
 		
-		System.out.println(bDay);	
-		bDay.PrintThis();
-
+		System.out.println(bDay);
+		bDay.printThis();
 	}
 
 }

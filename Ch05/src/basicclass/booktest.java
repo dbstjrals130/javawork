@@ -1,15 +1,16 @@
 package basicclass;
 
-public class booktest {
+public class BookTest {
 
 	public static void main(String[] args) {
 
-		book book1 = new book(100, "개미");
+		Book book1 = new Book(100, "개미");
+		System.out.println(book1);
 		System.out.println(book1.toString());
 		
 		//String msg = "개미";
 		String msg = new String("개미");
-		System.out.println(msg.toString());
+		System.out.println(msg);
 
 	}
 

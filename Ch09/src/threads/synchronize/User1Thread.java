@@ -5,7 +5,7 @@ public class User1Thread extends Thread{
 	private Calculator calculator;
 	
 	public User1Thread() {
-		setName("User1Thread");	//스레드 이름 설정
+		setName("User1Thread");  //스레드 이름 설정
 	}
 	
 	public void setCalculator(Calculator calculator) {
@@ -17,5 +17,5 @@ public class User1Thread extends Thread{
 	public void run() {
 		calculator.setMemory(100);
 	}
-
+	
 }

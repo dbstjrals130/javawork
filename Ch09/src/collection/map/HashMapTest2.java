@@ -10,7 +10,7 @@ public class HashMapTest2 {
 		//Map 자료구조의 객체 생성
 		Map<String, Integer> map = new HashMap<>();
 		int idx = 0;
-
+		
 		//자료 저장
 		map.put("Java", ++idx);
 		map.put("Python", ++idx);
@@ -22,17 +22,14 @@ public class HashMapTest2 {
 		Set<String> keys = map.keySet();
 		
 		//자료의 크기
-		System.out.println("총 객체 수 : " + map.size());
-		System.out.println("총 엔트리(키) 수 : " + map.size());
+		System.out.println("총 객체 수: " + map.size());
+		System.out.println("총 엔트리(키) 수: " + keys.size());
 		
-		//key 조회
+		//key-value 조회
 		for(String key : keys)
-			System.out.println(key + " : " + map.get(key));
+			System.out.println(key + ":" + map.get(key));
 		
-		System.out.println("=========================");
-		
-		//람다식 조회
-		keys.forEach(key -> System.out.println(key));
+		System.out.println("=======================");
 		
 		//자료 존재 유무
 		System.out.println(map.containsKey("C++"));
@@ -41,12 +38,9 @@ public class HashMapTest2 {
 		if(map.containsKey("Python")) {
 			map.remove("Python");
 		}
-			
+		
 		//람다식 조회
-		keys.forEach(key -> System.out.println(key + " : " + map.keySet()));
-		
-		
+		keys.forEach(key -> System.out.println(key + ":" + map.get(key)));
 	}
-
 
 }

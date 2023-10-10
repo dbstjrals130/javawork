@@ -11,13 +11,12 @@ public class ScannerTest1 {
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("이름 입력: ");
-		String name = scanner.nextLine();  // 문자열 입력
+		String name = scanner.nextLine();  //문자열 입력
 		
 		System.out.print("나이 입력: ");
 		int age = scanner.nextInt();
-		System.out.println("이름 : " + name + ", 나이: " + age);
-
-		scanner.close(); // 닫기
+		System.out.println("이름: " + name + ", 나이: " + age);
+		
+		scanner.close();  //닫기
 	}
-
 }

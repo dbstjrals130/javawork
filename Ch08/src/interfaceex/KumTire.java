@@ -1,7 +1,7 @@
 package interfaceex;
 
 //Tire 인터페이스를 구현한 클래스 - kumTire
-public class KumTire implements Tire {
+public class KumTire implements Tire{
 
 	@Override
 	public void roll() {

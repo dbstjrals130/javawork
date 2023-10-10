@@ -10,19 +10,18 @@ public class BeepPrintTest3 {
 			@Override
 			public void run() {
 				Toolkit toolkit = Toolkit.getDefaultToolkit();
-				for(int i=0; i<=5; i++) {
+				for(int i=1; i<=5; i++) {
 					toolkit.beep();
 					
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
-						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
 				}
 			}
 		};
-		thread.start();  //스레드 실행
+		thread.start(); //스레드 실행
 		
 		//문자 출력
 		for(int i=0; i<=5; i++) {
@@ -34,8 +33,5 @@ public class BeepPrintTest3 {
 				e.printStackTrace();
 			}
 		}
-		
-		
-	} //main 끝
-
+	}//main 끝
 }

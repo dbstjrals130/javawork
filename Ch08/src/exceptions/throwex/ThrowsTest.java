@@ -10,7 +10,6 @@ public class ThrowsTest {
 			//e.printStackTrace();
 			System.out.println(e.toString());
 		}
-
 	}
 	
 	public static void findClass() throws ClassNotFoundException {

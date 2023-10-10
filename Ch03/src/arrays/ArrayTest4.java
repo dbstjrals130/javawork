@@ -21,7 +21,6 @@ public class ArrayTest4 {
 			total += data[i];
 			System.out.println(data[i]);
 		}
-		
 		//평균 계산
 		average = total / data.length;
 		
@@ -30,7 +29,5 @@ public class ArrayTest4 {
 		
 		//평균 출력
 		System.out.println("평균 : " + average);
-		
 	}
-
 }

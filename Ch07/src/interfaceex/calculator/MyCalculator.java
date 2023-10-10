@@ -24,10 +24,7 @@ public class MyCalculator implements Calculator{
 		if(num2 != 0) {
 			return num1 / num2;
 		}else {
-			return Calculator.ERROR;  // 오류 처리를 상수로 함
+			return Calculator.ERROR; //에러 처리를 상수로 함
 		}
 	}
-	
-	
-
 }

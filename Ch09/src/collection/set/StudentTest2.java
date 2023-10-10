@@ -23,7 +23,7 @@ public class StudentTest2 {
 		
 		//map 객체 출력
 		System.out.println(map);
-		
+	
 	}
 
 }

@@ -13,18 +13,19 @@ public class Main {
 		// Taxi 객체 생성
 		Taxi 카카오택시 = new Taxi("카카오택시");
 		
-		// 사람 정보 출력
+		//버스 타기
 		sohee.take(bus100, 1500);
 		daeho.take(bus100, 1500);
 		
-		// 택시 타기		
+		//택시 타기
 		sohee.take(카카오택시, 4800);
 		
-		sohee.ShowPersonInfo();
-		daeho.ShowPersonInfo();
+		//사람 정보 출력
+		sohee.showPersonInfo();
+		daeho.showPersonInfo();
+		
+		//차량 정보 출력
 		bus100.showInfo();
 		카카오택시.showInfo();
-
 	}
-
 }

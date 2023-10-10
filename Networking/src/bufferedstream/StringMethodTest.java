@@ -9,12 +9,13 @@ public class StringMethodTest {
 		String subject = "자바 프로그래밍 입문";
 		
 		System.out.println(subject.charAt(4));
+		
 		System.out.println(subject.indexOf("프"));
 		
-		//split() 사용 - 구분 기호(, "", :)
+		//split() 사용 - 구분 기호(, " ", :)
 		String[] word = subject.split(" ");
 		System.out.println(Arrays.toString(word));
-
+		
 		System.out.println(word[0]);
 		System.out.println(word[1]);
 		
@@ -26,7 +27,6 @@ public class StringMethodTest {
 		System.out.println(number[0]);
 		System.out.println(number[1]);
 		System.out.println(number[2]);
-		
 	}
 
 }

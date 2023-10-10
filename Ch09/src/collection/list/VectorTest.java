@@ -6,7 +6,7 @@ import java.util.Vector;
 public class VectorTest {
 
 	public static void main(String[] args) {
-
+		
 		List<String> vegeList = new Vector<>();
 		
 		//객체 생성
@@ -18,14 +18,15 @@ public class VectorTest {
 		if(vegeList.contains("양파")) {
 			vegeList.remove("양파");
 		}
-
+		
 		//리스트 객체의 개수
-		System.out.
-		println("총 객체 수 : " + vegeList.size());
+		System.out.println("총 객체수: " + vegeList.size());
 		
 		//전체 조회
-		for(String vege : vegeList)
+		for(String vege : vegeList) {
 			System.out.println(vege);
 		}
+
+	}
 
 }

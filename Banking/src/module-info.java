@@ -4,5 +4,5 @@
 /**
  * 
  */
-module Banking {
+module banking {
 }

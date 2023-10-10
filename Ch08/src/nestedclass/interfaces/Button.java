@@ -18,5 +18,4 @@ public class Button {
 	public void touch() {
 		listener.onClick();
 	}
-
 }
